@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://crud-api-h0aq.onrender.com']
+ALLOWED_HOSTS = ['crud-api-h0aq.onrender.com']
 
 
 # Application definition
