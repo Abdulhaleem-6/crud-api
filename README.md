@@ -55,31 +55,31 @@ To use the "crud-api" project, you can interact with its API endpoints. Here's a
 
 ### Create a Resource
 
-- **Endpoint**: `/api/resources/`
+- **Endpoint**: `/api/`
 - **Method**: `POST`
 - **Description**: Create a new resource by sending a POST request with the required data.
 
 ### List All Resources
 
-- **Endpoint**: `/api/resources/`
+- **Endpoint**: `/api/{person_id}/`
 - **Method**: `GET`
 - **Description**: Retrieve a list of all resources.
 
 ### Retrieve a Resource
 
-- **Endpoint**: `/api/resources/<resource_id>/`
+- **Endpoint**: `/api/<person_id>/`
 - **Method**: `GET`
 - **Description**: Retrieve details of a specific resource by its ID.
 
 ### Update a Resource
 
-- **Endpoint**: `/api/resources/<resource_id>/`
+- **Endpoint**: `/api/<person_id>/`
 - **Method**: `PUT`
 - **Description**: Update the details of a specific resource.
 
 ### Delete a Resource
 
-- **Endpoint**: `/api/resources/<resource_id>/`
+- **Endpoint**: `/api/<person_id>/`
 - **Method**: `DELETE`
 - **Description**: Delete a specific resource.
 

@@ -4,14 +4,14 @@ This document provides detailed information about the API endpoints, request/res
 
 ## List and Create Persons
 
-- **Endpoint**: `/api/persons/`
+- **Endpoint**: `/api/`
 - **Method**: `GET` (List) and `POST` (Create)
 
 ### List Persons
 
 **Request**
 ```http
-GET /api/persons/
+GET /api/
 
 **Response**
 
@@ -32,7 +32,7 @@ GET /api/persons/
 
 ### Create Persons
 **Request**
-POST /api/persons/
+POST /api/
 
 **Request Body**
 {
@@ -50,7 +50,7 @@ POST /api/persons/
 }
 
 ### Retrieve, Update, and Delete Person
-**Endpoint**: /api/persons/<person_id>/
+**Endpoint**: /api/<person_id>/
 **Method**: GET (Retrieve), PUT (Update), and DELETE (Delete)
 
 ### Retrieve Person
@@ -58,7 +58,7 @@ POST /api/persons/
 **Request**
 
 ```http
-GET /api/persons/1/
+GET /api/{person_id}/
 
 **Response**
 
@@ -75,7 +75,7 @@ GET /api/persons/1/
 **Request**
 
 ```http
-PUT /api/persons/1/
+PUT /api/{person_id}/
 
 **Request Body**
 {
@@ -98,7 +98,7 @@ PUT /api/persons/1/
 **Request**
 
 ```http
-DELETE /api/persons/1/
+DELETE /api/{person_id}/
 
 **Response**
 
